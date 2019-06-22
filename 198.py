@@ -1,4 +1,4 @@
 ax=int(input())
 a=list(map(int,input().split()))
-a.sort()
-print(a.index(a[len(a)-1])-a.index(a[0]))
+b=sorted(a)
+print(a.index(b[len(b)-1])-a.index(b[0]))
